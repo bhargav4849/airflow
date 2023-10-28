@@ -51,7 +51,7 @@ RUN pip install --no-cache-dir 'redis==3.5.3'
 RUN pip install --no-cache-dir 'psycopg2-binary==2.9.3'
 #RUN pip install --no-cache-dir 'psycopg2==2.9.3'
 RUN pip install --no-cache-dir 'click==8.0.4'
-RUN pip install --no-cache-dir 'celery-flower==1.0.1'
+#RUN pip install --no-cache-dir 'celery-flower==1.0.1'
 RUN pip install --no-cache-dir 'certifi==2022.12.7'
 RUN pip install --no-cache-dir 'cryptography==39.0.2'
 RUN pip install --no-cache-dir 'databricks-cli==0.14.3'
@@ -93,8 +93,7 @@ RUN rm /home/airflow/.local/lib/python3.8/site-packages/gevent/tests/test_server
   && rm /home/airflow/.local/lib/python3.8/site-packages/gevent/tests/server.key \
   && rm /home/airflow/.local/lib/python3.8/site-packages/gevent/tests/wrongcert.pem \
   && rm /home/airflow/.local/lib/python3.8/site-packages/gevent/tests/keycert.pem \
-  && rm /home/airflow/.local/lib/python3.8/site-packages/gevent/tests/badcert.pem \
-  && rm /home/airflow/.local/lib/python3.8/site-packages/flower/static/js/jquery-1.7.2.min.js
+  && rm /home/airflow/.local/lib/python3.8/site-packages/gevent/tests/badcert.pem
 
 # RUN rm -rf /home/airflow/.local/lib/python3.8/site-packages/airflow
 
