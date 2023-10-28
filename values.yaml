@@ -46,10 +46,10 @@ securityContext: {}
 airflowHome: /opt/airflow
 
 # Default airflow repository -- overridden by all the specific images below
-defaultAirflowRepository: di01airflowacr.azurecr.io/airflow
+defaultAirflowRepository: bhargavrdy/aksairflowimage
 
 # Default airflow tag to deploy
-defaultAirflowTag: "580" #"2.4.1"
+defaultAirflowTag: "latest" #"2.4.1"
 
 # Airflow version (Used to make some decisions based on Airflow Version being deployed)
 airflowVersion: "2.4.1"
