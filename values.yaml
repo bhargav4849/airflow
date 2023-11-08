@@ -46,7 +46,7 @@ securityContext: {}
 airflowHome: /opt/airflow
 
 # Default airflow repository -- overridden by all the specific images below
-defaultAirflowRepository: bhargavrdy/jenkinsairflowimage
+defaultAirflowRepository: bhargavrdy/airflowjenkinsaks
 
 # Default airflow tag to deploy
 defaultAirflowTag: "latest" #"2.4.1"
